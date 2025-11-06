@@ -1,0 +1,17 @@
+# Frontend - Tkinter Custom
+# Instalar con: pip install -r frontend/requirements.txt
+
+# Interfaz gráfica
+customtkinter
+Pillow
+
+# Generación de PDFs
+reportlab
+fpdf
+
+# Exportación a Excel
+openpyxl
+
+# Cliente HTTP para consumir la API
+requests
+
