@@ -7,7 +7,7 @@ from datetime import date, datetime
 class APIClient:
     """Cliente para comunicarse con la API REST del backend."""
     
-    def __init__(self, base_url: str = "https://aguaspl-production.up.railway.app"):
+    def __init__(self, base_url: str = "https://backend.aguaspl.site"):
         self.base_url = base_url.rstrip('/')
         self.token: Optional[str] = None
         self.user_data: Optional[Dict] = None
